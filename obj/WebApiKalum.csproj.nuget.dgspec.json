@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Julio\\WebApiKalum\\WebApiKalum.csproj": {}
+    "C:\\Users\\Julio\\webapikalum\\WebApiKalum.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Julio\\WebApiKalum\\WebApiKalum.csproj": {
+    "C:\\Users\\Julio\\webapikalum\\WebApiKalum.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Julio\\WebApiKalum\\WebApiKalum.csproj",
+        "projectUniqueName": "C:\\Users\\Julio\\webapikalum\\WebApiKalum.csproj",
         "projectName": "WebApiKalum",
-        "projectPath": "C:\\Users\\Julio\\WebApiKalum\\WebApiKalum.csproj",
+        "projectPath": "C:\\Users\\Julio\\webapikalum\\WebApiKalum.csproj",
         "packagesPath": "C:\\Users\\Julio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Julio\\WebApiKalum\\obj\\",
+        "outputPath": "C:\\Users\\Julio\\webapikalum\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Julio\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,6 +38,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlserver": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"

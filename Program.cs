@@ -23,3 +23,5 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+//  setarse en via remota con git git remote set-url origin https://github.com/Julioi078m/WebApiKalum-net-2022.git
