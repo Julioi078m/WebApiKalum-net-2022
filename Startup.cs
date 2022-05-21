@@ -1,17 +1,37 @@
+using Microsoft.EntityFrameworkCore;
+
 namespace WebApiKalum
 {
     public class Startup
     {
-        public IConfiguration configuration { get;}
+        public IConfiguration Configuration { get;}
         public Startup(IConfiguration configuration)
         {
-            this.configuration = configuration;
+            this.Configuration = configuration;
         }
 
-        public void ConfigreServices(IServiceCollection _services)
+        public void ConfigureServices(IServiceCollection services)
         {
-            _services.AddControllers();
-            //_services.AddDbContext<>
+            services.AddControllers();
+            services.AddDbContext<KalumDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("defaultConnection")));
+            services.AddEndpointsApiExplorer();
+            services.AddSwaggerGen();
+            services.AddControllers().AddNewtonsoftJson(options => options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
+        }
+
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        {
+            if (env.IsDevelopment())
+            {
+                app.UseSwagger();
+                app.UseSwaggerUI();
+            }
+
+            app.UseHttpsRedirection();
+            app.UseRouting();
+            app.UseAuthorization();
+            app.UseEndpoints(endpoints => { endpoints.MapControllers();});
+               
         }
     }
 }
