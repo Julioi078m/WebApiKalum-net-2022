@@ -9,5 +9,8 @@ namespace WebApiKalum.Entities
         public bool GeneraMora { get; set; }
         public int PorcentajeMora { get; set; }
 
+        public virtual List<CuentaXCobrar> CuentaXCobrar { get; set; }
+        
+        
     }
 }

@@ -15,7 +15,10 @@ namespace WebApiKalum.Entities
         public CarreraTecnica CarreraTecnica { get; set; }
         public Jornada Jornada { get; set; }
         public virtual ExamenAdmision ExamenAdmision { get; set; }
-       
+        public virtual List<InscripcionPago> InscripcionesPago { get; set; }
+        public virtual List<ResultadoExamenAdmision> ResultadoExamenAdmision { get; set; }
+
+
 
         
 
