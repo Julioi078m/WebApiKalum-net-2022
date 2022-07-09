@@ -7,6 +7,8 @@ C:\Users\Julio\WebApiKalum\bin\Debug\net6.0\WebApiKalum.dll
 C:\Users\Julio\WebApiKalum\bin\Debug\net6.0\ref\WebApiKalum.dll
 C:\Users\Julio\WebApiKalum\bin\Debug\net6.0\WebApiKalum.pdb
 C:\Users\Julio\WebApiKalum\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Julio\WebApiKalum\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Julio\WebApiKalum\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\Julio\WebApiKalum\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 C:\Users\Julio\WebApiKalum\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\Julio\WebApiKalum\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -22,6 +24,8 @@ C:\Users\Julio\WebApiKalum\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.Op
 C:\Users\Julio\WebApiKalum\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Julio\WebApiKalum\bin\Debug\net6.0\Microsoft.OpenApi.dll
 C:\Users\Julio\WebApiKalum\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Julio\WebApiKalum\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Julio\WebApiKalum\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
 C:\Users\Julio\WebApiKalum\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Julio\WebApiKalum\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Julio\WebApiKalum\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -59,7 +63,6 @@ C:\Users\Julio\WebApiKalum\obj\Debug\net6.0\WebApiKalum.dll
 C:\Users\Julio\WebApiKalum\obj\Debug\net6.0\ref\WebApiKalum.dll
 C:\Users\Julio\WebApiKalum\obj\Debug\net6.0\WebApiKalum.pdb
 C:\Users\Julio\WebApiKalum\obj\Debug\net6.0\WebApiKalum.genruntimeconfig.cache
-C:\Users\Julio\WebApiKalum\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
-C:\Users\Julio\WebApiKalum\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
-C:\Users\Julio\WebApiKalum\bin\Debug\net6.0\Newtonsoft.Json.dll
-C:\Users\Julio\WebApiKalum\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\Julio\WebApiKalum\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Julio\WebApiKalum\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Julio\WebApiKalum\bin\Debug\net6.0\RabbitMQ.Client.dll
